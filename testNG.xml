@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Spartacus Regression suite" guice-stage="DEVELOPMENT" >
+<listeners>
+<listener class-name="com.hcl.ikea.utilities.Reporting" />
+</listeners>
+ 
+<!-- <parameter name="browser" value="firefox"/> -->
+<test thread-count="2" name="IKEA Spartacus Test Regression" verbose="2">
+<parameter name="browser" value="chrome"/>
+<classes>
+<!--<class name="com.hcl.ikea.testCases.TC_CureUser_HandOutRequest_01"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_IcompRequest_02"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_IssueReportRequest_03"/> 
+<class name="com.hcl.ikea.testCases.TC_CureUser_PartialExchangeRequest_04"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_PartialExchangeDummyComp_05"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_SearchOrderRequestPage_06"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_Cancel_Request_07"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_Print_Request_08"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_Preview_Request_09"/>
+<class name="com.hcl.ikea.testCases.TC_CSCUser_HandOutRequest_010"/> 
+<class name="com.hcl.ikea.testCases.TC_CSCUser_IssueReport_011"/>
+<class name="com.hcl.ikea.testCases.TC_CSCUser_ICompRequest_012"/>
+<class name="com.hcl.ikea.testCases.TC_CSCUser_Validate_FeedbackPage_013"/>
+<class name="com.hcl.ikea.testCases.TC_CSCUser_SearchOrderRequest_014"/>	
+<class name="com.hcl.ikea.testCases.TC_CSCUser_CancelRequest_15"/>	 
+<class name="com.hcl.ikea.testCases.TC_CSCUser_PrintRequest_16"/>
+<class name="com.hcl.ikea.testCases.TC_CSCUser_Preview_017"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_Accept_Request_18"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_Cancel_Request_19"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_Reject_Request_20"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_Print_Request_21"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_Preview_Request_22"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_AddStock_CompInventory_23"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_DeleteStock_CompInventory_24"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_IssueReport_25"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_AddNewSparePart_26"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_AddStock_CompReplenishment_27"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_IssueReport_CompReplenishment_28"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_AddNewSparePart_CompReplenishment_29"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_Accept_Request_030"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_Cancel_Request_031"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_Preview_Request_032"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_AddStock_33"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_RemoveStock_34"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_IssueReport_35"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_AddNewSparePart_36"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentAddStockFor0StockWithoutLocation_37_01"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentUpStockWithLocation_37_02"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentIssueReport_38"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentAddNewSparePart_39"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_PiaFact_40"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_EditNComp_41"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_DeleteNComp_42"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_EOL_Management_043"/>
+<class name="com.hcl.ikea.testCases.TC_ValidatePictureAdminOfRangeManagement_44_01"/>
+<class name="com.hcl.ikea.testCases.TC_ValidatePictureAdminOfRangeManagement_44_02"/>
+<class name="com.hcl.ikea.testCases.TC_ValidatePictureAdminOfRangeManagement_44_03"/>
+<class name="com.hcl.ikea.testCases.TC_ValidatePictureAdminOfRangeManagement_44_04"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_LinkComponent_45"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_Merge_46"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_UnLinkComponent_47"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentLinkComp_048"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentMergeComp_49"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentUnLinkComp_50"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentPiaFact_51"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentDeleteNComp_52"/>
+<class name="com.hcl.ikea.testCases.TC_Administration_CreateUser_53"/>
+<class name="com.hcl.ikea.testCases.TC_Administration_EditUserDetails_54"/>
+<class name="com.hcl.ikea.testCases.TC_Administration_AddingNewStore_55"/>
+<class name="com.hcl.ikea.testCases.TC_Administration_SearchFunctionality_AddingNewStore_56"/>
+<class name="com.hcl.ikea.testCases.TC_Administration_EditFunctionality_StoreManagement_57"/>-->
+<class name="com.hcl.ikea.testCases.TC_Administration_DeleteFunctionality_UserManagement_58"/>
+<!--<class name="com.hcl.ikea.testCases.TC_Recovery_Manager_CreateUser_59"/>
+<class name="com.hcl.ikea.testCases.TC_Recovery_Manager_ValidateCountry_60"/>
+<class name="com.hcl.ikea.testCases.TC_Recovery_Manager_EditFunctionality_61"/>
+<class name="com.hcl.ikea.testCases.TC_Recovery_Manager_DeleteFunctionality_62"/>
+<class name="com.hcl.ikea.testCases.TC_ValidateSearchTabOfGlobalAdmin_063"/>
+<class name="com.hcl.ikea.testCases.TC_UserAdmin_CreateUser_64"/>
+<class name="com.hcl.ikea.testCases.TC_UserAdmin_EditUser_65"/>
+<class name="com.hcl.ikea.testCases.TC_UserAdmin_DeleteUser_66"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ValidateShowLocationDetails_67"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_MovePartFromLocation_68"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_RemoveCompFromLocation_69"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_UpdateStockInStockCheckInLocation_70"/>
+<class name="com.hcl.ikea.testCases.TC_CommonReport_71"/>
+<class name="com.hcl.ikea.testCases.TC_Release2_CSC_Manager_CSC_Coworker_UserManagementFunctionality_72"/>
+<class name="com.hcl.ikea.testCases.TC_ValidateAddLabelToSelectAllInClearStockScreen_73"/>
+<class name="com.hcl.ikea.testCases.TC_ValidateRemoveStockLocationButtonIsVisible_74"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_HideRemoveForSale_77"/>
+<class name="com.hcl.ikea.testCases.TC_ValidateRangeUploadPhaseInPhaseOutUploadedDateIssue_80"/>
+<class name="com.hcl.ikea.testCases.TC_ValidateRangeUploadIssueNotificationAlert_81"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdminOrUserVerifyPrintHeader_84"/>
+<class name="com.hcl.ikea.testCases.TC_ValidateOptionIsEnableToTypeInTheQuantity_85"/>
+<class name="com.hcl.ikea.testCases.TC_Sparta_263_CureUser_NewLinkPiaFacts_086"/>
+<class name="com.hcl.ikea.testCases.TC_Sparta_276_RecoveryAdminUser_PhaseInPhaseOutClick_087"/>
+<class name="com.hcl.ikea.testCases.TC_Release2_23_CSC_CSC_Manager_duplicate_entry_validation_088"/>
+<class name="com.hcl.ikea.testCases.TC_Release2_23_User_Admin_Self_User_Deletion_TC_89"/>-->
+</classes>
+</test> <!-- Default test -->
+</suite> <!-- Default suite -->
+
+
+
+
+

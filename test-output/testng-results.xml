@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-03T03:15:21 PDT" name="Spartacus Regression suite" finished-at="2022-06-03T03:16:45 PDT" duration-ms="83842">
+    <groups>
+    </groups>
+    <test started-at="2022-06-03T03:15:21 PDT" name="IKEA Spartacus Test Regression" finished-at="2022-06-03T03:16:45 PDT" duration-ms="83842">
+      <class name="com.hcl.ikea.testCases.TC_Administration_DeleteFunctionality_UserManagement_58">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcl.ikea.testCases.TC_Administration_DeleteFunctionality_UserManagement_58@101952da]" started-at="2022-06-03T03:15:21 PDT" name="setUp" finished-at="2022-06-03T03:15:25 PDT" duration-ms="3790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="adminCreateUser()[pri:0, instance:com.hcl.ikea.testCases.TC_Administration_DeleteFunctionality_UserManagement_58@101952da]" started-at="2022-06-03T03:15:25 PDT" name="adminCreateUser" finished-at="2022-06-03T03:16:30 PDT" duration-ms="64654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminCreateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcl.ikea.testCases.TC_Administration_DeleteFunctionality_UserManagement_58@101952da]" started-at="2022-06-03T03:16:30 PDT" name="tearDown" finished-at="2022-06-03T03:16:30 PDT" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcl.ikea.testCases.TC_Administration_DeleteFunctionality_UserManagement_58@101952da]" started-at="2022-06-03T03:16:30 PDT" name="setUp" finished-at="2022-06-03T03:16:33 PDT" duration-ms="3033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteFunctionalityUserManagement()[pri:0, instance:com.hcl.ikea.testCases.TC_Administration_DeleteFunctionality_UserManagement_58@101952da]" started-at="2022-06-03T03:16:33 PDT" name="deleteFunctionalityUserManagement" finished-at="2022-06-03T03:16:42 PDT" depends-on-methods="com.hcl.ikea.testCases.TC_Administration_CreateUser_53.adminCreateUser" duration-ms="9418" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertTrue(Assert.java:52)
+at com.hcl.ikea.testCases.TC_LoginPageTest_001.loginPage(TC_LoginPageTest_001.java:31)
+at com.hcl.ikea.testCases.TC_Administration_DeleteFunctionality_UserManagement_58.deleteFunctionalityUserManagement(TC_Administration_DeleteFunctionality_UserManagement_58.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFunctionalityUserManagement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcl.ikea.testCases.TC_Administration_DeleteFunctionality_UserManagement_58@101952da]" started-at="2022-06-03T03:16:43 PDT" name="tearDown" finished-at="2022-06-03T03:16:45 PDT" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hcl.ikea.testCases.TC_Administration_DeleteFunctionality_UserManagement_58 -->
+    </test> <!-- IKEA Spartacus Test Regression -->
+  </suite> <!-- Spartacus Regression suite -->
+</testng-results>

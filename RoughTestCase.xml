@@ -1,0 +1,128 @@
+<class name="com.hcl.ikea.testCases.TC_Administration_EditFunctionality_StoreManagement_57"/>
+<class name="com.hcl.ikea.testCases.TC_Administration_EditUserDetails_54"/>
+<class name="com.hcl.ikea.testCases.TC_Administration_SearchFunctionality_AddingNewStore_56"/>
+<class name="com.hcl.ikea.testCases.TC_CSCUser_CancelRequest_15"/>
+<class name="com.hcl.ikea.testCases.TC_CSCUser_HandOutRequest_010"/>
+<class name="com.hcl.ikea.testCases.TC_CSCUser_ICompRequest_012"/>
+<class name="com.hcl.ikea.testCases.TC_CSCUser_IssueReport_011"/>
+<class name="com.hcl.ikea.testCases.TC_CSCUser_Preview_017"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_Cancel_Request_07"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_HandOutRequest_01"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_IcompRequest_02"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_IssueReportRequest_03"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_PartialExchangeDummyComp_05"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_PartialExchangeRequest_04"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_Preview_Request_09"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_Print_Request_08"/>
+<class name="com.hcl.ikea.testCases.TC_CureUser_TrackOrder_06"/>
+<class name="com.hcl.ikea.testCases.TC_GlobalAdminUser_searchTabValidation_63"/>
+<class name="com.hcl.ikea.testCases.TC_Recovery_Manager_CreateUser_59"/>
+<class name="com.hcl.ikea.testCases.TC_Recovery_Manager_DeleteFunctionality_62"/>
+<class name="com.hcl.ikea.testCases.TC_Recovery_Manager_EditFunctionality_61"/>
+<class name="com.hcl.ikea.testCases.TC_Recovery_Manager_ValidateCountry_60"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_Accept_Request_18"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_AddNewSparePart_26"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_AddNewSparePart_CompReplenishment_29"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_AddStock_CompInventory_23"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_AddStock_CompReplenishment_27"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_Cancel_Request_19"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_DeleteStock_CompInventory_24"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_IssueReport_25"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_IssueReport_CompReplenishment_28"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_Preview_Request_22"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_Print_Request_21"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_Reject_Request_20"/>
+<class name="com.hcl.ikea.testCases.TC_Release2_CSC_Manager_CSC_Coworker_UserManagementFunctionality"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentAddNewSparePart_39"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentAddStockFor0Stock_37_01"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentDeleteNComp_52"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentIssueReport_38"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentLinkComp_048"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentMergeComp_49"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentPiaFact_51"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentUnLinkComp_50"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentUpStockForNon0Stock_37_02"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_AddNewSparePart_36"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_AddStock_33"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_DeleteNComp_42"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_DeleteStock_34"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_EditNComp_41"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_IssueReport_35"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_LinkComponent_45"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_PiaFact_40"/>
+
+
+<!-- Aakash need to work in this -->
+<!--  <class name="com.hcl.ikea.testCases.TC_Administration_DeleteFunctionality_StoreManagement_58"/>-->
+
+
+<!-- <class name="com.hcl.ikea.testCases.TC_RecoveryUser_DeleteStock_CompInventory_24"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_IssueReport_25"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_IssueReport_CompReplenishment_28"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentAddNewSparePart_39"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentAddStockFor0Stock_37_01"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentDeleteNComp_52"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentIssueReport_38"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentLinkComp_048"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentMergeComp_49"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentPiaFact_51"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentUnLinkComp_50"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentUpStockForNon0Stock_37_02"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_AddNewSparePart_36"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_AddStock_33"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_DeleteNComp_42"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_DeleteStock_34"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_EditNComp_41"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_IssueReport_35"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_LinkComponent_45"/>
+<class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_PiaFact_40"/>-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Spartacus Regression suite" thread-count="4" guice-stage="DEVELOPMENT" parallel="tests">
+<listeners>
+<listener class-name="com.hcl.ikea.utilities.Reporting" />
+</listeners>
+  <!--<test thread-count="5" name="IKEA Spartacus Test Regression" verbose="2" parallel="tests">-->
+  <parameter name="browser" value="chrome"/>
+<!--  <tests name="IKEA Spartacus Test Regression">-->
+<!-- <parameter name="browser" value="firefox"/> -->
+<!--  <classes>-->
+<!--<class name="com.hcl.ikea.testCases.TC_Administration_AddingNewStore_55"/>
+<class name="com.hcl.ikea.testCases.TC_Administration_CreateUser_53"/> 
+<class name="com.hcl.ikea.testCases.TC_Administration_DeleteFunctionality_StoreManagement_58"/>--> 
+
+<test name="1">
+<classes>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_AddNewSparePart_26"/>
+</classes>
+</test>
+
+<test name="2">
+<classes>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_AddNewSparePart_CompReplenishment_29"/>
+</classes>
+</test>
+
+<test name="3">
+<classes>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_AddStock_CompReplenishment_27"/>
+</classes>
+</test>
+
+<test name="4">
+<classes>
+<class name="com.hcl.ikea.testCases.TC_RecoveryUser_AddStock_CompInventory_23"/>
+</classes>
+</test>
+
+<!--  </classes>-->
+ <!--  </tests> --> <!-- Default test -->
+</suite> <!-- Default suite -->
+<!-- <class name="com.hcl.ikea.testCases.TC_RecoveryUser_DeleteStock_CompInventory_24"/> -->
+<!-- <class name="com.hcl.ikea.testCases.TC_RecoveryUser_IssueReport_25"/> -->
+<!-- <class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentIssueReport_38"/> -->
+<!-- <class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_ReplenishmentUpStockForNon0Stock_37_02"/> -->
+<!-- <class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_IssueReport_35"/> -->
+<!-- <class name="com.hcl.ikea.testCases.TC_RecoveryAdmin_PiaFact_40"/> -->
